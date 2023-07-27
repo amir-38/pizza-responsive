@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Lato:ital,wght@0,300;0,400;1,300&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="resp-nav">
+      <ul>
+        <li><a href="#zzz">HOME</a></li>
+        <li><a href="#xxx">MENU</a></li>
+        <li><a href="#ccc">ABOUT</a></li>
+        <li><a href="#vvv">CONTACT</a></li>
+      </ul>
+    </nav>
+    <header>
+      <div class="header-cont">
+        <h1 id="zzz">THIN CRUST PIZZA</h1>
+        <h2 class="see-menu">
+          <a href="">Let me se the menu</a>
+        </h2>
+        <p class="header-txt">OPEN FROM 10AM TO 12PM</p>
+      </div>
+    </header>
+    <section class="menu">
+      <h2 class="the-menu" id="xxx">THE MENU</h2>
+      <div class="menu-bar">
+        <div class="menu-bar-div">
+          <ul class="menu-name">
+            <div class="menu-name-list active lin" data-tab-target="#pizza">
+              <li>PIZZA</li>
+            </div>
+
+            <div class="menu-name-list lin" data-tab-target="#salad">
+              <li>SALADS</li>
+            </div>
+
+            <div class="menu-name-list lin" data-tab-target="#starter">
+              <li>STARTER</li>
+            </div>
+          </ul>
+        </div>
+        <div class="piza active tab" id="pizza">
+          <ul class="piza-content">
+            <li class="piza-cont-text">
+              <p class="piza-cont-text-head">
+                <span>Margherita</span>
+                <span>$12.50</span>
+              </p>
+              <p>Fresh tomatoes, fresh mozzarella, fresh basil</p>
+            </li>
+            <hr />
+            <li class="piza-cont-text">
+              <p class="piza-cont-text-head">
+                <span>Formaggio</span>
+                <span>$15.50</span>
+              </p>
+              <p>Four cheeses (mozzarella, parmesan, pecorino, jarlsberg)</p>
+            </li>
+            <hr />
+            <li class="piza-cont-text">
+              <p class="piza-cont-text-head">
+                <span>Chicken</span>
+                <span>$17.00</span>
+              </p>
+              <p>Fresh tomatoes, mozzarella, chicken, onions</p>
+            </li>
+            <hr />
+            <li class="piza-cont-text">
+              <p class="piza-cont-text-head">
+                <span>Pineapple'o'clock</span>
+                <span>$16.50</span>
+              </p>
+              <p>Fresh tomatoes, fresh mozzarella, fresh basil</p>
+            </li>
+            <hr />
+            <li class="piza-cont-text">
+              <p class="piza-cont-text-head">
+                <span>Margherita</span>
+                <span>$12.50</span>
+              </p>
+              <p>
+                Fresh tomatoes, mozzarella, fresh pineapple, bacon, fresh basil
+              </p>
+            </li>
+            <hr />
+            <li class="piza-cont-text">
+              <p class="piza-cont-text-head">
+                <span>Meat Town Hot!</span>
+                <span>$20.00</span>
+              </p>
+              <p>
+                Fresh tomatoes, mozzarella, hot pepporoni, hot sausage, beef,
+                chicken
+              </p>
+            </li>
+            <hr />
+            <li class="piza-cont-text">
+              <p class="piza-cont-text-head">
+                <span>Parma New</span>
+                <span>$21.50</span>
+              </p>
+              <p>Fresh tomatoes, mozzarella, parma, bacon, fresh arugula</p>
+            </li>
+          </ul>
+        </div>
+        <div class="piza tab" id="salad">
+          <!-- salad  -->
+          <ul class="piza-content">
+            <li class="piza-cont-text">
+              <p class="piza-cont-text-head">
+                <span>Lasagna Popular</span>
+                <span>$13.50</span>
+              </p>
+              <p>Special sauce, mozzarella, parmesan, ground beef</p>
+            </li>
+            <hr />
+            <li class="piza-cont-text">
+              <p class="piza-cont-text-head">
+                <span>Ravioli</span>
+                <span>$14.50</span>
+              </p>
+              <p>Ravioli filled with cheese</p>
+            </li>
+            <hr />
+            <li class="piza-cont-text">
+              <p class="piza-cont-text-head">
+                <span>Spaghetti Classica</span>
+                <span>$11.00</span>
+              </p>
+              <p>Fresh tomatoes, onions, ground beef</p>
+            </li>
+            <hr />
+            <li class="piza-cont-text">
+              <p class="piza-cont-text-head">
+                <span>Seafood pasta</span>
+                <span>$25.50</span>
+              </p>
+              <p>Salmon, shrimp, lobster, garlic</p>
+            </li>
+          </ul>
+        </div>
+        <div class="piza tab" id="starter">
+          <ul class="piza-content">
+            <li class="piza-cont-text">
+              <p class="piza-cont-text-head">
+                <span>Today's Soup Seasonal</span>
+                <span>$12.50</span>
+              </p>
+              <p>Fresh tomatoes, fresh mozzarella, fresh basil</p>
+            </li>
+            <hr />
+            <li class="piza-cont-text">
+              <p class="piza-cont-text-head">
+                <span>Formaggio</span>
+                <span>$15.50</span>
+              </p>
+              <p>Four cheeses (mozzarella, parmesan, pecorino, jarlsberg)</p>
+            </li>
+            <hr />
+            <li class="piza-cont-text">
+              <p class="piza-cont-text-head">
+                <span>Chicken</span>
+                <span>$17.00</span>
+              </p>
+              <p>Fresh tomatoes, mozzarella, chicken, onions</p>
+            </li>
+            <hr />
+            <li class="piza-cont-text">
+              <p class="piza-cont-text-head">
+                <span>Pineapple'o'clock</span>
+                <span>$16.50</span>
+              </p>
+              <p>Fresh tomatoes, fresh mozzarella, fresh basil</p>
+            </li>
+            <hr />
+            <li class="piza-cont-text">
+              <p class="piza-cont-text-head">
+                <span>Margherita</span>
+                <span>$12.50</span>
+              </p>
+              <p>
+                Fresh tomatoes, mozzarella, fresh pineapple, bacon, fresh basil
+              </p>
+            </li>
+            <hr />
+            <li class="piza-cont-text">
+              <p class="piza-cont-text-head">
+                <span>Meat Town Hot!</span>
+                <span>$20.00</span>
+              </p>
+              <p>
+                Fresh tomatoes, mozzarella, hot pepporoni, hot sausage, beef,
+                chicken
+              </p>
+            </li>
+            <hr />
+            <li class="piza-cont-text">
+              <p class="piza-cont-text-head">
+                <span>Parma New</span>
+                <span>$21.50</span>
+              </p>
+              <p>Fresh tomatoes, mozzarella, parma, bacon, fresh arugula</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="about">
+      <h2 class="about-head" id="ccc">ABOUT</h2>
+      <p class="about-text">
+        The Pizza Restaurant was founded in blabla by Mr. Italiano in lorem
+        ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat.
+      </p>
+      <div class="circle-img">
+        <p class="circle-text">
+          <span><b> The Chef?</b> Mr. Italiano himself</span>
+          <span>We are proud of our interiors.</span>
+        </p>
+        <div>
+          <img class="circle-portrait" src="chef.jpg" alt="" />
+        </div>
+      </div>
+      <div class="open-img">
+        <img src="onepage_restaurant.jpg" alt="" />
+      </div>
+      <p class="open">Opening Hours</p>
+      <div class="open-text-colum">
+        <p class="open-text">
+          <span>Mon & Tue CLOSED</span>
+          <span>Wednesday 10.00 - 24.00</span>
+          <span>Thursday 10:00 - 24:00</span>
+        </p>
+        <p class="open-text">
+          <span>Friday 10:00 - 12:00</span>
+          <span>Saturday 10:00 - 23:00</span>
+          <span>Sunday closed</span>
+        </p>
+      </div>
+    </section>
+    <section class="contact">
+      <div class="cont-img">
+        <img src="map.jpg" alt="" />
+      </div>
+      <h2 class="cont-head" id="vvv">CONTACT</h2>
+      <p class="cont-text-first">
+        Find us at some address at some place or call us at 05050515-122330
+      </p>
+      <p class="cont-text-first">
+        <span> FYI!</span> We offer full-service catering for any event, large
+        or small. We understand your needs and we will cater the food to satisfy
+        the biggerst criteria of them all, both look and taste.
+      </p>
+      <p class="cont-text-third">
+        <b> Reserve</b> a table, ask for today's special or just send us a
+        message:
+      </p>
+      <div class="input">
+        <label for="name"></label>
+        <input type="text" id="name" placeholder="NAME" />
+
+        <br />
+        <label for="number"></label>
+        <input type="number" id="number" placeholder="HOW MANY PEOPLE" />
+        <br />
+        <label for="date"></label>
+        <input type="date" id="date" />
+        <br />
+        <label for="message"></label>
+        <input
+          type="text"
+          id="message"
+          placeholder="MESSAGE/SPECIAL REQUIREMENT"
+        />
+        <br />
+        <input type="submit" />
+      </div>
+    </section>
+    <footer>
+      <h4>Powered by w3.css</h4>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
